@@ -27,11 +27,51 @@ h2 {
   background-color: #DEDEDE;
   padding-top: 30px;
   margin: auto;
-  background-image: url(images/baku.jpg)
-  background-repeat: no-repeat;
-  background-size: contain;
+
 }
 
-.title {
-  padding-bottom: 30px;
+.preview {
+  width: 375px;
+  height: 370px;
+  padding-top: 30px;
+  padding-bottom: 300px:
+  padding-right: 170px;
+  padding-left:30px;
+  margin-bottom: -20px;
+}
+
+.baku {
+  background-image: url('/images/baku.jpg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+
+}
+
+.london {
+  background-image: url('/images/london.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+  margin-top: 20px;
+  Margin-bottom: 20px;
+}
+
+.madrid{
+  background-image: url('/images/madrid.jpg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  margin-top: 20px;
+  Margin-bottom: 20px;
+
+}
+
+.rome {
+  background-image: url('/images/rome.jpg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  margin-top: 20px;
+  Margin-bottom: 20px;
+
 }
