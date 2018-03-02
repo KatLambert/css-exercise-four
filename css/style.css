@@ -1,4 +1,37 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #dadada;
-  font-size: 10px;
+  font-size: 12px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size:1em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-family: serif;
+  font-size: 2em;
+
+}
+
+.container {
+  display:flex;
+  width: 375px;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #DEDEDE;
+  padding-top: 30px;
+  margin: auto;
+  background-image: url(images/baku.jpg)
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.title {
+  padding-bottom: 30px;
 }
