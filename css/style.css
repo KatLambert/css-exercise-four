@@ -4,6 +4,7 @@
 
 body {
   font-size: 12px;
+  background-color: #dedede;
 }
 
 h1 {
@@ -25,14 +26,21 @@ h2 {
     width: 48%;}
    }
 
+@media screen and (min-width: 991px){
+      div {margin: 1%;
+       width: 23%;}
+      }
+
 .container {
-  width: 375px;
-  justify-content: center;
-  background-color: #DEDEDE;
-  padding-top: 20px;
-  margin: auto;
+  width: 100%;
+}
 
-
+div {
+    background-color: #dadada;
+    float: left;
+    margin: 1% 0;
+    width: 100%;
+    padding: 5px, 25px;
 }
 
 .preview {
@@ -41,15 +49,13 @@ h2 {
   padding-top: 30px;
   padding-left:30px;
   margin-top: 20px;
-
 }
 
 .baku {
   background-image: url('../images/baku.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-
-
+  background-position: center;
 
 }
 
@@ -58,18 +64,12 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
-
-
-
 }
 
 .madrid{
   background-image: url('../images/madrid.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-
-
-
 }
 
 .rome {
